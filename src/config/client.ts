@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "10",
 
   // Services
   services: [
@@ -79,9 +79,16 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Chris Wilkins", rating: 5, text: "I cannot speak highly enough of the service and quality of finished product that we have received from TP Sherwood & Sons. Trevor not only took our brief for the works, but with his knowledge, made suggestions and improvements leaving me …  ", date: "2 months ago" },
+    { name: "Timothy Shaw", rating: 5, text: "Thank you Trevor and all your team for such a great job replacing our driveway in Poole with Sigma Urban Slate. The new block paving transformed the appearance of the front of our house and you managed it in just 4 days. The attention to detail was r", date: "11 months ago" },
+    { name: "Niall Harper", rating: 5, text: "Trevor and the team have recently done a fantastic job of a path at our office. The initial quote was extremely competitive and once accepted, the works were booked in quickly. On the day the team turned up and got straight to work. The …  ", date: "7 months ago" },
+    { name: "J Abass", rating: 5, text: "Right from initial contact to get a quote (which was very reasonable) through to completion, nothing but friendly professionalism. We selected blocks for the driveway from the Sherwood showroom and Trevor explained the pros and cons of each …  ", date: "7 months ago" },
+    { name: "James and Helen Green", rating: 5, text: "Trevor and his team completely transformed the front drive and rear patio of our house and all in one week! It was captivating observing their work, as one job was  completed, a truck would roll up, offload supplies and then the work would …  ", date: "11 months ago" },
+    { name: "W R", rating: 5, text: "Trevor and his team were absolutely fantastic! They have completely transformed our outdoor space giving a beautiful, yet practical result. Highly recommended with their expertise in groundworks and landscaping. Friendly, knowledgeable and a reassuri", date: "11 months ago" },
+    { name: "Majeda Abass", rating: 5, text: "I had no hesitation whatsoever to use Trevor to transform our driveway to the highest standards. The driveway looks amazing . …  ", date: "7 months ago" },
+    { name: "Anita Clare", rating: 5, text: "I recently hired T P Sherwood & Sons to landscape my garden, and I couldn't be more pleased with the results. Their team cleared away the old patio slabs and installed beautiful porcelain paving on two patio areas, including a full row of …  ", date: "10 months ago" },
+    { name: "Paul Telfer", rating: 5, text: "Trevor and his team worked tirelessly to renew our 100 square metre drive especialĺy in the hot weather. We are really pleased with the end result. What a difference! …  ", date: "7 years ago" },
+    { name: "David Norton", rating: 5, text: "It has taken myself & wife years to make a decision on how to proceed with a new driveway & path, we had a number of quotations (as reccommended by Trevor & sons). Trevor was competitive but what we liked was the \"professional no nonsence …  ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
